@@ -4,7 +4,7 @@ import {useState} from 'react';
 
 export const GifExpertApp = () => {
 
-  const [state, setstate] = useState([ 'dragon ball']);
+  const [state, setstate] = useState([ 'dragon ball' ]);
   // Tarea
   const onAddCategory = (newCategory) => {
     if(state.includes(newCategory)) return;
